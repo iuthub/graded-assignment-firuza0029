@@ -1,4 +1,4 @@
-@for($i=0;$i<1,$i++)
+@section('content')
 <ul id="myUL">
           <li>
             <div class="task">
@@ -34,4 +34,4 @@
             </div>
           </li>
  </ul>
- @endfor
+ @endsection

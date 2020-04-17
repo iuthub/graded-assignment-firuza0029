@@ -8,14 +8,15 @@
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
+        
+        <link rel="stylesheet" href="../style.css">
         <script src="https://kit.fontawesome.com/8500f75e5b.js" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="{{URL::to('../style.css')}}">
     </head>
     <body>
        @include('blog.index')
        @yield('content')
-       @section('content')
        @include('blog.edition')
-       @endsection
+       
+       
     </body>
 </html>
